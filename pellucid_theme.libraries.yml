@@ -1,0 +1,21 @@
+
+global-styling:
+  css:
+    theme:
+      css/pellucid.css: { }
+      /core/modules/ckeditor/css/ckeditor.css: {}
+
+  stylesheets-remove:
+    # This one's 404
+    - /core/modules/editor/css/editor.css
+
+global-js:
+  js:
+    js/pellucid.js: {  }
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
