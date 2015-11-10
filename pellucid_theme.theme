@@ -1,5 +1,5 @@
 <?php
-function pellucid_css_alter(&$css) { 
+function pellucid_theme_css_alter(&$css) { 
   $theme_path = drupal_get_path('theme', 'pellucid_theme'); 
   // Add googlefonts. 
   $googlefonts = 'https://fonts.googleapis.com/css?family=Shadows+Into+Light|Lato:400,400italic';
